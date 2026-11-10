@@ -1,0 +1,16 @@
+
+>> For 1st time to configure github in our system
+git config --global user.name "khushalshailaja-beep"
+git config --global user.email "khushalshailaja@gmailcom"
+git config --global color.ui auto
+
+>> git init
+>> git remote add origin https://github.com/khushalshailaja-beep/GitDemo.git
+
+git pull origin main
+git status
+
+git add .
+git status
+git commit -m "Commit Message"
+git push
